@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>breakpoint</title>
+    <style>
+        body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #eb86d0;
+      }
+      .responsive-div {
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+        color: #e5dbdb;
+        font-size: 26px;
+        background-color: #03311e;
+      }
+      @media (max-width: 600px) {
+        body {
+          align-items: flex-start;
+        }
+        .responsive-div {
+          background-color: #955507;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 1024px) {
+        body {
+          align-items: center;
+        }
+        .responsive-div {
+          background-color: #e74c3c;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="responsive-div">
+        Risponsive this change color
+    
+    </div>
+  </body>
+</html>
