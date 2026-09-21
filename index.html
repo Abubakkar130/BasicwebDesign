@@ -3,35 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my name j khan</title>
-    <!--style sheet-->
-    
+    <title>My Fist JavaScript project</title>
 
+    <!--CSS File-->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!--removing list-->
-
-        <ul id="taskList">
-            <li>Task 1</li>
-            <li>Task 2</li>
-            <li>Task 3</li>
-            <li>Task 4</li>
-        </ul>
-        <button id="removeList text">removeList text</button>
-        </id>
+    <div class="container">
+        <h1 id="heading">Welcome To Javascript</h1>
+        <p id="paragraph"> click the button to see JavaScript in action"></p>
+        <button id="bta">Click me</button>
+    </div>
+    <script src="app.js"></script>
 </body>
-
-        <!--js-->
-        <script>
-        document.getElementById("removeList text")
-        .addEventListener("click",function(){
-        const taskList= document.getElementById("taskList");
-        const listTask=taskList.lastElementChild;//get the list <li>
-            if(listTask){
-                taskList.removeChild(listTask);
-            }
-
-        });
-</script>
 </html>
