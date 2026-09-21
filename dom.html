@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listeners</title>
+    <style>
+ .highlight{
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+      body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; /* horizontal center */
+      align-items:center;     /* vertical center */
+      flex-direction: column;  /* stack elements vertically */
+      gap: 10px;
+ }
+    </style>
+</head>
+<body>
+    <!--Quiz 1 Change the Text content-->
+    <h1 id="my paragraph"> I am paragraph</h1>
+    <button id="CTB"> Change text</button>
+
+
+     <!--Quiz 2 Highling first city button-->
+
+    <section id="cityList">
+        <h2> Traversing the DOM</h2>
+        <!--//ul>li*3-->
+        <ul> 
+            <li>D.I.KHAN</li>
+            <li> Islamand</li>
+            <li>Peshawer</li>
+        </ul>
+        <button id="highlightFirsCity"> Highlingt first city</button>
+    </section>
+
+        <!--Quiz 3 Removing DOM Element (Last task)-->
+        <section>
+            <ul id="taskList">
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+                
+                 
+            </ul>
+             <button id="removeList Task"> Remove List Task</button>
+            </section>
+           
+
+         <!-- Quiz 4 Event handling -->
+           <section >
+           <button id="myButton">Click Me</button>
+           <p id="message"></p>
+           </section>
+
+        <!--Quiz 5 Event delegation (Click on any name to select it)-->
+          <section id="nameList">
+      <ul>
+        <li class ="MAK">MAK</li>
+        <li class ="ZOZO">ZOZO</li>
+        <li class ="FALEHA">FALEHA</li>
+     </ul>
+      <p>Click on any name to slect it</p>
+       </section>
+
+    <!--Quiz 6-->
+     <section>
+    <form id="feedbackForm">
+<label for="feedbackInput">Your Feedback</label>
+<input type="text" id ="feedbackInput"placeholder ="Enter your feed back please"/>
+<button type="submit">Submit Feedback</button>
+</form>
+<p id="FeedbackDisplay"></p>
+</section>
+
+
+ <!--Quiz 7-->
+ <section>
+<h2>DOM Content Load</h2>
+<p id="domStatus">Waiting for DOM to load....</p>
+</section>
+<!--Quiz 8 CSS Classes Manipulation-->
+<h1>Togglehighlight</h1>
+<p id="descriptiontext">This text will change color</p>
+<button id="THL">Toggle Highlight</button>
+
+
+
+<section>
+        
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
