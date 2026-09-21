@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(244, 145, 173);
+    front-family:'Arial', sans-serif;
+}
+.Album{
+    display: grid;
+    grid-template-columns: repeat(3,lfr);
+    grid-auto-rows: 200px;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 aout;
+}
+.Album img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius:10px;
+}
+.main-photo{
+    grid-column: span 2;
+    grid-row: span2;
+}
